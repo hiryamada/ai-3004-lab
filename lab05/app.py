@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 # Add references
 from openai import AzureOpenAI
-from azure.core.credentials import AzureKeyCredential
 
 def main(): 
 
