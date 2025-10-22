@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # You will need to set these environment variables or edit the following values.
-endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+endpoint = os.getenv("ENDPOINT_URL")
 api_version = os.getenv("OPENAI_API_VERSION")
 deployment = os.getenv("DEPLOYMENT_NAME")
 api_key = os.getenv("AZURE_OPENAI_API_KEY")
